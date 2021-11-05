@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    $menu = config("nav");
+    $data1 = config("comics");
+    return view('index', ["menu" => $menu]);
 });
