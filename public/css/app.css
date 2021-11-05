@@ -21,6 +21,25 @@ a {
   text-decoration: none;
 }
 
+.head-top {
+  background-color: #0282f9;
+}
+.head-top .head-top-cont {
+  display: flex;
+  justify-content: flex-end;
+  height: 1.875rem;
+  align-items: center;
+}
+.head-top .head-top-cont p {
+  color: white;
+  margin-left: 3.125rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.head-top .head-top-cont p i {
+  margin-left: 0.3125rem;
+}
+
 .head-cont {
   display: flex;
   justify-content: space-between;
@@ -45,4 +64,78 @@ a {
 .head-cont .head-right ul li a:active {
   color: #0282f9;
   border-bottom: 0.25rem solid #0282f9;
+}
+.head-cont .search-bar {
+  border-bottom: 0.125rem solid #0282f9;
+}
+.head-cont .search-bar input {
+  border-style: none;
+}
+.head-cont .search-bar ::-moz-placeholder {
+  color: black;
+  opacity: 1;
+  text-align: right;
+}
+.head-cont .search-bar :-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+  text-align: right;
+}
+.head-cont .search-bar ::placeholder {
+  color: black;
+  opacity: 1;
+  text-align: right;
+}
+
+.jumbo-cont {
+  background-image: url("../images/jumbotron.jpg");
+  height: 25rem;
+  background-size: cover;
+  position: relative;
+}
+.jumbo-cont .btn-current-series {
+  background-color: #0282f9;
+  padding: 0.625rem;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  bottom: -1.275rem;
+  left: 17%;
+}
+
+.bg-cont {
+  background-color: black;
+  padding: 3rem 0;
+}
+
+.books-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.books-cont .btn-load-more {
+  margin-top: 2.25rem;
+  font-size: 0.875rem;
+  background-color: #0282f9;
+  padding: 0.5rem 2.875rem;
+  color: white;
+}
+.books-cont .book {
+  width: calc(16.6666666667% - 2rem);
+  height: 7.308125rem;
+  margin-bottom: 1.875rem;
+}
+.books-cont .book img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.books-cont .book p {
+  color: white;
+  font-size: 0.875rem;
+  margin-top: 0.625rem;
 }

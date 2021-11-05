@@ -45,4 +45,9 @@ return [
         "url" => "#",
         "current" => false,
     ],
+    [
+        "text" => "SHOP",
+        "url" => "#",
+        "current" => false,
+    ],
 ];
