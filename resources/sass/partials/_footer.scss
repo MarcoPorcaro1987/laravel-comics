@@ -1,0 +1,64 @@
+@import "./variables.scss";
+
+.foot-top {
+    background-image: url("../images/footer-bg.jpg"); 
+    height: 24rem;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.info-cont {
+display: flex;
+gap: 2.5rem;
+}
+
+.info {
+padding: 1.875rem 0;
+    p {
+        padding: 0.625rem 0;
+        font-weight: bold;
+        color: white;
+    }
+    a {
+        color: #959595;
+        font-size: 0.75rem;
+    }
+}
+
+.logo-bg-cont {
+margin-left: auto;
+margin-top: -5%;
+    img {
+        height: 28.125rem;
+    }
+}
+
+.foot-bottom {
+background-color: #303030;
+display: flex;
+padding: 1.25rem 0;
+}
+
+.foot-btm-cont {
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+    .btn-sign-up {
+    color: white;
+    padding: 0.3125rem 0.625rem;
+    border: 0.125rem solid $mainColor;
+    }
+    p {
+    color: $mainColor;
+    }
+    .social-cont {
+        display: flex;
+        align-items: center;
+        gap: 0.9375rem;
+        .social{
+            display: flex;
+            gap: 1.25rem;
+        }
+    }
+}

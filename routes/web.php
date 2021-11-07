@@ -18,6 +18,7 @@ Route::get('/', function () {
         "menu" => config("nav"),
         "comics" => config("comics"),
         "icons" => config("icons"),
+        "navFooter" => config("navFooter")
     ];
     return view('index', $data);
 });

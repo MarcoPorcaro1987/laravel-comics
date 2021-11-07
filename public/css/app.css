@@ -148,7 +148,7 @@ a {
   padding: 20px;
   display: flex;
   color: white;
-  justify-content: space-between;
+  justify-content: center;
 }
 .icons .icons-cont .icon {
   display: flex;
@@ -160,4 +160,67 @@ a {
 }
 .icons .icons-cont .icon img {
   height: 3.125rem;
+}
+
+.foot-top {
+  background-image: url("../images/footer-bg.jpg");
+  height: 24rem;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.info-cont {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.info {
+  padding: 1.875rem 0;
+}
+.info p {
+  padding: 0.625rem 0;
+  font-weight: bold;
+  color: white;
+}
+.info a {
+  color: #959595;
+  font-size: 0.75rem;
+}
+
+.logo-bg-cont {
+  margin-left: auto;
+  margin-top: -5%;
+}
+.logo-bg-cont img {
+  height: 28.125rem;
+}
+
+.foot-bottom {
+  background-color: #303030;
+  display: flex;
+  padding: 1.25rem 0;
+}
+
+.foot-btm-cont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.foot-btm-cont .btn-sign-up {
+  color: white;
+  padding: 0.3125rem 0.625rem;
+  border: 0.125rem solid #0282f9;
+}
+.foot-btm-cont p {
+  color: #0282f9;
+}
+.foot-btm-cont .social-cont {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+}
+.foot-btm-cont .social-cont .social {
+  display: flex;
+  gap: 1.25rem;
 }
