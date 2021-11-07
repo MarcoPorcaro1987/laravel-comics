@@ -16,4 +16,14 @@
         </div>
     </div>
 </div>
+<div class="icons">
+    <div class="container icons-cont">
+        <div class="icon">
+            @foreach ($icons as $icon)
+            <img src="../images/{{ $icon["img"] }}"  alt="{{ $icon["label"] }}" />
+            <span>{{ $icon["label"] }}</span>
+            @endforeach
+        </div>
+    </div>
+</div>
 @endsection

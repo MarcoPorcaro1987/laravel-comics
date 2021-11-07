@@ -114,13 +114,6 @@ a {
   justify-content: center;
   gap: 2rem;
 }
-.books-cont .btn-load-more {
-  margin-top: 2.25rem;
-  font-size: 0.875rem;
-  background-color: #0282f9;
-  padding: 0.5rem 2.875rem;
-  color: white;
-}
 .books-cont .book {
   width: calc(16.6666666667% - 2rem);
   height: 7.308125rem;
@@ -138,4 +131,33 @@ a {
   color: white;
   font-size: 0.875rem;
   margin-top: 0.625rem;
+}
+.books-cont .btn-load-more {
+  margin-top: 2.25rem;
+  font-size: 0.875rem;
+  background-color: #0282f9;
+  padding: 0.5rem 2.875rem;
+  color: white;
+}
+
+.icons {
+  background: #0282f9;
+  padding: 1.5625rem;
+}
+.icons .icons-cont {
+  padding: 20px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.icons .icons-cont .icon {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.icons .icons-cont .icon span {
+  font-size: 0.75rem;
+}
+.icons .icons-cont .icon img {
+  height: 3.125rem;
 }
