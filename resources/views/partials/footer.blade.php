@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <div class="info">
-                <p>{{$navFooter['nav3']['title']}}</p>
+                <p>{{$navFooter['nav4']['title']}}</p>
                 <ul>
                     @foreach ($navFooter['nav4']['links'] as $link)
                     <li>
@@ -40,7 +40,7 @@
                 </ul>
             </div>
             <div class="logo-bg-cont">
-                <img src="../../images/dc-logo-bg.png" alt="" />
+                <img src="../images/dc-logo-bg.png" alt="" />
             </div>
         </div>
     </div>
